@@ -1,3 +1,3 @@
 #include "ScalarConverter.hpp"
 
-void ScalarConverter::convert(const std::string &s) {(void)s;}
+void ScalarConverter::convert(const std::string &s) {}

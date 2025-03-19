@@ -1,7 +1,7 @@
 #include "ScalarConverter.hpp"
 #include <iostream>
 
-void tests() {
+inline void tests() {
     ScalarConverter::convert("0");
     ScalarConverter::convert("nan");
     ScalarConverter::convert("nanf");

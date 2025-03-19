@@ -2,7 +2,11 @@
 #include <iostream>
 
 inline void tests() {
-    ScalarConverter::convert("0");
+    ScalarConverter::convert("'a'");
+    ScalarConverter::convert("'!'");
+    ScalarConverter::convert("'0'");
+    ScalarConverter::convert("'\\'");
+    ScalarConverter::convert("'\1'");
     ScalarConverter::convert("nan");
     ScalarConverter::convert("nanf");
     ScalarConverter::convert("-inff");

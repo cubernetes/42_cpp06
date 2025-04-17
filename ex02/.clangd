@@ -1,0 +1,8 @@
+CompileFlags:
+  CompilationDatabase: .
+
+Diagnostics:
+  MissingIncludes: Strict
+
+InlayHints:
+  BlockEnd: Yes

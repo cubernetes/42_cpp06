@@ -1,0 +1,6 @@
+Standard: Cpp03
+BasedOnStyle: LLVM
+SortIncludes: true
+NamespaceIndentation: All
+ColumnLimit: 200
+IndentWidth: 4
